@@ -1,0 +1,13 @@
+.circle-image {
+    width: 40px; /* set width of the circle */
+    height: 40px; /* set height of the circle */
+    border-radius: 50%; /* make it a circle shape */
+    overflow: hidden; /* hide overflow of the image */
+    margin-right: 10px;
+  }
+  
+  .circle-image img {
+    width: 100%; /* set width of the image to 100% */
+    height: auto; /* set height of the image to auto */
+    display: block; /* make sure the image is a block element */
+  }
